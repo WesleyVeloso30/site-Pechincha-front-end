@@ -1,0 +1,63 @@
+#divSuperior {
+    text-align: center;
+    padding-top: 3%;
+    height: 25vh;
+    border-bottom: solid 0.1rem black;
+    width: 100vw;
+    margin-bottom: 3%;
+    background-color: #ffaf01;
+}
+
+#iconePerfil {
+    height: 35px;
+    width: 35px;
+    margin-right: 5%;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.posicionarIcone {
+    width: 100%;
+    text-align: end;
+}
+
+#conteinerPrincipal {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.conteiner {
+    margin: 5%;
+    padding: 4%;
+    border: solid red;
+    height: 230px;
+}
+
+.imagemProduto {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: solid 0.1rem black;
+    background-color: #ffaf01;
+}
+
+.botaoDescricao {
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.posicionarBotao {
+    display: flex;
+    justify-content: space-between;
+    height: 19%;
+    width: 100%;
+}
+
+#botaoFiltros {
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+}
